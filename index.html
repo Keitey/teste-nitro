@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <title>Teste Vaga FrontEnd - Nitro</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="logo" id="logo"></div>
+      <h2 class="text">Consulte sua encomenda:</h2>
+
+      <div class="search">
+        <input
+          type="text"
+          id="search"
+          placeholder="Digite o número do pedido"
+          autocomplete="off"
+        />
+        <button id="button">
+          <div id="lupa"></div>
+        </button>
+      </div>
+
+      <div class="row-one">
+        <div>
+          <h2 class="sucess cliente"></h2>
+          <h4 class="client-order"></h4>
+        </div>
+        <div>
+          <h2 class="sucess valor"></h2>
+          <h4 class="client-price"></h4>
+        </div>
+      </div>
+
+      <div class="row-two">
+        <div>
+          <h2 class="sucess data"></h2>
+          <h4 class="client-date"></h4>
+        </div>
+        
+        <div>
+          <h2 class="sucess status"></h2>
+          <h4 class="client-status"></h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="error">
+          Encomenda<br />
+          não encontrada!
+          <br /><br />
+          Procure novamente
+        </h2>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+  </body>
+</html>
